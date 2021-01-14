@@ -1,0 +1,73 @@
+* {
+
+}
+
+body {
+    background-color: rgb(201, 200, 200);
+}
+
+header {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 2em;
+    background-color: rgb(206, 183, 140);
+}
+
+nav {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 1.4em;
+    margin-top: 20px;
+    background-color: rgb(214, 241, 216);
+    text-decoration: none;
+    text-align: justify;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+section {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 1.4em;
+    margin-top: 20px;
+    height: 40vh;
+    background-color: rgb(241, 214, 218);
+    width: 70%;
+    display: inline-flex;
+}
+.recetas {
+    height: 130px;
+    width: 130px;
+    border: 2px solid black;
+    padding: 20px;
+
+}
+
+.principal {
+    display:flex;
+}
+
+aside {
+    border: 3px solid black;
+    font-size: 1.4em;
+    margin-top: 20px;
+    background-color: rgb(238, 241, 214);
+    width: 25%;
+    text-decoration: none;
+    display: inline-flex;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+footer {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 1.4em;
+    margin-top: 20px;
+    height: 20px;
+    background-color: rgb(99, 136, 238);
+}

@@ -1,60 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Pagina web con mis recetas">
-    <meta name="keywords" content="Recetas, menu,"> 
-    <link rel="stylesheet" href="estilos-recetas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis Recetas</title>
+    <link rel="stylesheet" href="estilos-recetas.css">
 </head>
 
 <body>
-    <header style="background-color: darkred;">
-        <h1>Mis Recetas</h1>
-    </header>
+    <Header>Mis Recetas</Header>
 
-    <nav style="background-color: orange;">
-        Inicio | Recetas | Contacto
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="recetas.html">Recetas</a>
+        <a href="contacto.html">Contacto</a>
     </nav>
 
-    <main style="background-color: green;">
-        <section style="background-color: cyan;">
-            <article style="background-color: darkmagenta;">
-                <header style="background-color: darkolivegreen;">Receta 1</header>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates eos quos quasi, placeat
-                    obcaecati aut culpa error excepturi consectetur, accusamus sed praesentium! Adipisci, nisi nobis.
-                    Doloribus quod expedita quia.</p>
-            </article>
-
-            <article style="background-color: darkmagenta;">
-                <header style="background-color: darkolivegreen;">Receta 2</header>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates eos quos quasi, placeat
-                    obcaecati aut culpa error excepturi consectetur, accusamus sed praesentium! Adipisci, nisi nobis.
-                    Doloribus quod expedita quia.</p>
-            </article>
-
-            <article style="background-color: darkmagenta;">
-                <header style="background-color: darkolivegreen;">Receta 3</header>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptates eos quos quasi, placeat
-                    obcaecati aut culpa error excepturi consectetur, accusamus sed praesentium! Adipisci, nisi nobis.
-                    Doloribus quod expedita quia.</p>
-            </article>
+    <main>
+        <section class="principal">
+            <div class="recetas">Receta 1</div>
+            <div class="recetas">Receta 2</div>
+            <div class="recetas">Receta 3</div>
+            <div class="recetas">Receta 4</div>
         </section>
 
-        <aside style="background-color: brown;">
-            <header>Menu del dia</header>
-
-                <ul>
-                    <li>Receta 7</li>
-                    <li>Receta 8</li>
-                    <li>Receta 9</li>
-                </ul>
+        <aside>
+            <h4>Menu del dia</h4>
         </aside>
 
-        <footer style="background-color:orchid;">Copyright - 2021</footer>
-
     </main>
+
+    <footer>
+        copyright
+    </footer>
 </body>
 
 </html>
