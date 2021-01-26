@@ -44,11 +44,18 @@ section {
     width: 130px;
     border: 2px solid black;
     padding: 20px;
+    margin: 10px;
+    text-align: center;
 
 }
 
-.principal {
+.principal-1{
     display:flex;
+}
+
+.principal-2 {
+    display: flex;
+    justify-content: space-around;
 }
 
 aside {
@@ -58,7 +65,7 @@ aside {
     background-color: rgb(238, 241, 214);
     width: 25%;
     text-decoration: none;
-    display: inline-flex;
+    display: flex;
     margin-left: 20px;
     padding: 10px;
 }
