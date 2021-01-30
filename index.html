@@ -7,6 +7,9 @@
     <meta name="description" content="Pagina web sobre mis recetas">
     <meta name="keywords" content="recetas, gastronomia, comer">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://kit.fontawesome.com/dddb6bfb93.js" crossorigin="anonymous"></script>
+
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
@@ -17,39 +20,104 @@
 
 <body class="cuerpo">
 
+    <div class="menu-container">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">RECETAS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
 
-    <nav class="menu">
-        <ul>
-            
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">RECETAS</a></li>
-            <li><a href="#">CONTACTO</a></li>
-        </ul>
-    </nav>
+        <div class="logo">
+            <img class="img-logo" src="/imagenes/logo-recetas.png" alt="">
+        </div>
 
-    <Header class="encabezado">
+        <div class="relleno"></div>
+    </div>
 
-    </Header>
+
+    <Header class="encabezado"></Header>
 
     <main class="container">
         <section class="principal">
-            <div class="recetas">Receta 1</div>
-            <div class="recetas">Receta 2</div>
-            <div class="recetas">Receta 3</div>
-            <div class="recetas">Receta 4</div>
-            <div class="recetas">Receta 5</div>
-            <div class="recetas">Receta 6</div>
+            <div class="recetas">
+                <div class="imagen"><img src="/imagenes/empanadas_argentinas.jpg" alt=""></div>
+
+                <h3>EMPANADAS ARGENTINAS</h3>
+                <P>Empanadas de carne, pollo, humita tipica comida Argentina.</P>
+            </div>
+
+            <div class="recetas">
+                <div class="imagen"><img src="/imagenes/goulash.jpg" alt=""></div>
+
+                <h3>GOULASH HUNGARO</h3>
+                <P>Comida tipica del invierno en Hungria, con carne, salsa y verdudas.</P>
+            </div>
+
+            <div class="recetas">
+                <div class="imagen"><img src="/_resources/espaguetis-de-calabacin.jpg" alt=""></div>
+
+                <h3>ESPAGUETIS DE CALABACIN</h3>
+                <P>Manjar Italiano, preparado con verduras seleccionadas.</P>
+            </div>
+
+            <div class="recetas">
+                <div class="imagen"><img src="/_resources/lubina-con-hummus-de-guisantes.jpg" alt=""></div>
+
+                <h3>LUBINA CON HUMMUS DE GUISANTES</h3>
+                <P>Plato originado en las costas del Mediterraneo.</P>
+            </div>
+
+            <div class="recetas">
+                <div class="imagen"><img src="/_resources/vichyssoise-de-esparragos-blancos.jpg" alt=""></div>
+
+                <h3>VICHYSSOISE DE ESPARRAGOS BLANCOS</h3>
+                <P>Tipica sopa estilo fransesa, creada por un chef Vasco.</P>
+            </div>
+
+            <div class="recetas">
+                <div class="imagen"><img src="/imagenes/niños_envueltos.jpg" alt=""></div>
+
+                <h3>NIÑOS ENVUELTOS</h3>
+                <P>Comida fusion Argentino-Alemana, delicias al paladar.</P>
+            </div>
 
         </section>
 
         <aside class="barra-lateral">
-            Menu del dia
+            <h4>POSTRES SELECCIONADOS</h4>
+            <br>
+            <div class="postres">
+                <div class="img-postres"><img src="/_resources/tiramisu-express.jpg" alt=""></div>
+                <h5>TIRAMISU EXPRESS</h5>
+            </div>
+            <br>
+            <div class="postres">
+                <div class="img-postres"><img src="/imagenes/arroz-con-leche.jpg" alt=""></div>
+                <h5>ARROZ CON LECHE</h5>
+            </div>  
+            <br>
+            <div class="postres">
+                <div class="img-postres"><img src="/imagenes/panqueques-dulce.jpg" alt=""></div>
+                <h5>PANQUEQUES DULCE DE LECHE</h5>
+            </div>  
         </aside>
 
     </main>
 
     <footer class="pie-de-pagina">
-        Copyright todos los derechos reservados 2021
+        <p>Copyright todos los derechos reservados 2021 -</p>
+
+        <div class="social">
+            <ul>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+            </ul>
+        </div>
     </footer>
 </body>
 
