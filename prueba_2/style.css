@@ -1,0 +1,56 @@
+@import 'reset.css';
+@import 'basic.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'layout.css';
+@import 'text.css';
+@import 'grid.css';
+
+/* NAVEGADOR LINKS */
+
+#main-nav {
+    text-align: center;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 4px;
+}
+
+#main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+.main-flex {
+    display: flex;
+}
+
+.main-flex section {
+    width: 70%;
+    background-color: rgb(253, 167, 167);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-flex section img {
+    width: 100%;
+    height: auto;
+}
+
+.main-flex section div {
+    background-color: saddlebrown;
+    width: 50%;
+
+}
+
+
+
+
+
+/* ASIDE */
+
+.main-flex aside {
+    width: 30%;
+    background-color: rgb(160, 177, 229);
+}
