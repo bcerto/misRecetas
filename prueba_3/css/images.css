@@ -1,0 +1,18 @@
+.images {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.images-md {
+    width: 90%;
+    height: 23vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.images-small {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+}

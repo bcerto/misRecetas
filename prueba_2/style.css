@@ -8,6 +8,7 @@
 
 /* NAVEGADOR LINKS */
 
+
 #main-nav {
     text-align: center;
 }
@@ -21,7 +22,15 @@
     text-decoration: underline;
 }
 
+section {
+    background-color: salmon;
+}
+
+aside {
+    background-color: rgb(138, 228, 177);
+}
 /* MAIN */
+/*
 .main-flex {
     display: flex;
 }
@@ -45,12 +54,25 @@
 }
 
 
-
+*/
 
 
 /* ASIDE */
-
+/*
 .main-flex aside {
     width: 30%;
     background-color: rgb(160, 177, 229);
 }
+
+*/
+
+footer {
+    background-color: slategrey;
+}
+
+section img {
+    max-width: 300px;
+    height: auto;
+
+}
+
