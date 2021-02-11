@@ -11,6 +11,7 @@
 @import 'iconos.css';
 @import 'cuadrados.css';
 @import 'recetas.css';
+@import 'cuad-recetas.css';
 
 * {
     box-sizing: border-box;
