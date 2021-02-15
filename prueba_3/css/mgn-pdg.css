@@ -35,15 +35,27 @@
 }
 
 .mgn-der-05 {
-    margin: 0.5em;
+    margin-right: 0.5em;
 }
 
 .mgn-der-1 {
-    margin: 1em;
+    margin-right: 1em;
 }
 
 .mgn-der-2 {
-    margin: 2em;
+    margin-right: 2em;
+}
+
+.mgn-izq-05 {
+    margin-left: 0.5em;
+}
+
+.mgn-izq-1 {
+    margin-left: 1em;
+}
+
+.mgn-izq-2 {
+    margin-left: 2em;
 }
 
 .pdg-05 {

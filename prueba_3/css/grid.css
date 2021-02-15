@@ -59,7 +59,7 @@
 }
 
 
-@media (min-width: 768px) { /* 768 a infinito */ 
+@media (min-width: 800px) { /* 800 a infinito */ 
     
     .col-desk-1 {
         width: calc(8.33% - 1em);
@@ -107,7 +107,7 @@
 
 }
 
-@media (min-width: 500px) and (max-width: 767px) { /* 500 a 767 */
+@media (min-width: 500px) and (max-width: 799px) { /* 500 a 767 */
     .col-tab-1 {
         width: calc(8.33% - 1em);
     }

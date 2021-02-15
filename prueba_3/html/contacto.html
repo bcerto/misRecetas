@@ -13,7 +13,7 @@
 <body class="cuerpo-ppal">
     <div class="container">
 
-        <header id="header" class="block-center-col pdg-top-1 pdg-btn-1">
+        <header id="header" class="block-center-row pdg-top-1 pdg-btn-1">
             <img src="/_resources/logo-recetas-bruno.png" alt="">
         </header>
 
@@ -27,56 +27,47 @@
             </nav>
         </div>
 
-        <main class="grid">
-            <section class="col-desk-9 seccion mgn-top-1 mgn-btn-1 pdg-izq-1 ">
-                <div class="contactar mgn-top-2">
-                    <form>
-                        <div class="grid mgn-05">
-                            <label for="name" class="col-4 pdg-izq-05">Nombre y Apellido: </label>
-                            <input id="name" class="col-8" type="text">
+        <main>
+            <form class="block-center-row mgn-top-2 mgn-btn-2">
+                <div class="col-desk-5 col-tab-8 col-mob-12 contactar">
+                    <div class="grid mgn-05">
+                        <div style="text-align: center;" class="col-3">
+                            <label for="name" class="pdg-izq-05">Nombre: </label>
                         </div>
-
-                        <div class="grid mgn-05">
-                            <label for="email" class="col-4 pdg-izq-05">Email: </label>
-                            <input id="email" class="col-8" type="email">
+                        
+                        <div class="col-9 center">
+                            <input class="input-basic" id="name" type="text">
                         </div>
+                        
+                    </div>
 
-                        <div class="grid mgn-05">
-                            <label for="mensaje" class="col-4 pdg-izq-05">Mensaje: </label>
-                            <textarea id="mensaje" class="col-8" name="" id="" cols="30" rows="10"></textarea> 
+                    <div class="grid mgn-05">
+                        <div style="text-align: center;" class="col-3">
+                            <label for="email" class="pdg-izq-05">Email: </label>
                         </div>
-
-                        <div class="center">
-                            <button>Enviar mensaje</button>
+                        
+                        <div class="col-9 center">
+                            <input class="input-basic" id="email" type="email">
                         </div>
-                    </form>
-                </div>
-            </section>
+                        
+                    </div>
 
-            <aside class="col-desk-3 barra-lateral mgn-top-1 mgn-btn-1 rounded ">
+                    <div class="grid mgn-05">
 
-                <h2 class="txt-mayus-bold txt-ctr pdg-btn-05 pdg-top-05">Menu del Dia</h2>
-
-                <div class="grid">
-                    <div class="center">
-                        <div class="col-desk-12 pdg-izq-1">
-                            <h2 class="txt-mayus-bold pdg-btn-05 pdg-top-05">Entrantes</h2>
-                            <img class="images-md" src="/_resources/huevos-rellenos.jpg" alt="">
+                        <div style="text-align: center;" class="col-3">
+                            <label for="mensaje" class="pdg-izq-05">Mensaje: </label>
                         </div>
-
-                        <div class="col-desk-12 pdg-izq-1">
-                            <h2 class="txt-mayus-bold pdg-btn-05 pdg-top-05">Principal</h2>
-                            <img class="images-md" src="/_resources/niños-envueltos.jpg" alt="">
-                        </div>
-
-                        <div class="col-desk-12 pdg-izq-1">
-                            <h2 class="txt-mayus-bold pdg-btn-05 pdg-top-05">Postres</h2>
-                            <img class="images-md" src="/_resources/tiramisu-express.jpg" alt="">
+                        
+                        <div class="col-9 center">
+                            <textarea class="input-basic" id="mensaje" name="" id="message" rows="10"></textarea> 
                         </div>
                     </div>
-                </div>
-            </aside>
 
+                    <div class="center pdg-btn-1">
+                        <button>Enviar mensaje</button>
+                    </div>
+                </div>
+            </form>
         </main>
 
         <footer class="pie-de-pagina">

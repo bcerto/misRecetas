@@ -5,8 +5,8 @@
 }
 
 .images-md {
-    width: 90%;
-    height: 23vh;
+    width: 100%;
+    height: 25vh;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -15,4 +15,10 @@
     width: 30%;
     height: auto;
     object-fit: cover;
+}
+
+.img-receta {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
 }
